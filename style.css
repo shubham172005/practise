@@ -6,6 +6,11 @@
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: bebas;
+    src: url(/text/bebas_neue/BebasNeue-Regular.ttf);
+}
+
 html,
 body {
     height: 100vh;
@@ -53,7 +58,7 @@ body {
 }
 
 .text h1 {
-    font-size: 50px;
+    font-size: 80px;
     color: var(--text);
 }
 
@@ -112,5 +117,32 @@ body {
 
     .text p {
         font-size: 12px;
+    }
+}
+@media (min-width: 300px) and (max-width: 670px) {
+    body {
+      background-color: black;
+    }
+  }
+  @media (min-width: 300px) and (max-width: 670px) {
+    video {
+      background-color: black;
+    }
+  }
+  @media (max-width: 665px) {
+    .navbar-toggler {
+      margin-left: auto;
+     
+      
+    }
+}
+
+@media (max-width: 665px) {
+    .background-video {
+      max-width: 0px;
+      min-width: 0px;
+      background-color: black;
+     
+      
     }
 }
